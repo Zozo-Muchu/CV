@@ -1,0 +1,208 @@
+/*polices du CV*/
+@font-face
+{
+	 font-family: 'abelregular';
+    src: url('police/abel-regular-webfont.eot');
+    src: url('police/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('police/abel-regular-webfont.woff2') format('woff2'),
+         url('police/abel-regular-webfont.woff') format('woff'),
+         url('police/abel-regular-webfont.ttf') format('truetype'),
+         url('police/abel-regular-webfont.svg#abelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*information principal page*/
+body
+{
+	background-color: #ABC8E2;
+	font-family: abelregular, Arial, "Arial Black", sans-serif;
+	color: #0F0D0A;
+}
+#bloc_page
+{
+	width: 60%;
+	margin: auto;
+}
+header h1, section h1, section h2, footer h1
+{
+font-weight: bold;
+text-transform: uppercase;
+}
+/*En tête*/
+header
+{
+	float: left;
+	border: 2px solid Black;
+	width: 30%;
+	height: 800px;
+	background-color: #046380;
+	display: flex;
+	flex-direction:column;
+}
+header
+{
+	background: url("image/separateur.png") repeat-x left;
+}
+.photo_profil
+{
+	width: 100%;
+	height:auto;
+	margin: auto;
+	border-radius: 8px;
+}
+header ul
+{
+	text-align: left;
+	color: #EEEEC6;
+}
+header h1
+{
+	text-align: center;
+	font-weight: bold;
+	color: #5EB6DD;
+}
+#presentation
+{
+	width:100%;
+	height: auto;
+	margin: auto;
+}
+#informatique
+{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+#langue
+{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+/*Corps*/
+section
+{
+	border: 2px solid Black;
+	width: 69%;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+}
+#en-tete h1
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
+	color: #183152;
+	font-style: italic;
+}
+#en-tete h2
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.8em;
+	color: #002F2F;
+}
+#en-tete p
+{
+	text-align: center;
+	font-weight: bold;
+	font-size:1em;
+}
+#experience h1
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #002F2F;
+}
+#experience ul
+{
+	margin: 3%;
+}
+#formations h1
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #002F2F;
+}
+#formations ul
+{
+	margin:3%;
+}
+#competences h1
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #002F2F;
+}
+#competences ul
+{
+	margin:3%;
+}
+/*Bas de page*/
+footer
+{
+	border:2px solid Black;
+	width: 99%;
+	height: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	background: url("image/image_fond-bleu.jpg") repeat;
+}
+#contact h1
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #002F2F;
+}
+#contact ul
+{
+	font-size: 1em;
+	font-weight: bold;
+	list-style-type: none;
+}
+ a
+ {
+ 	text-decoration: underline;
+ 	color:#3C108A;
+ }
+ a:hover
+ {
+ 	text-decoration: underline;
+ 	color:#BD8D46; 
+ }
+ a:visited
+ {
+ 	color: #38813E;
+ }
+#reseau_sociaux h1
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #002F2F;
+}
+#contact
+{
+	display: inline-block;
+	width: 50%;
+	border:1px solid grey;
+}
+#reseau_sociaux
+{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	border:1px solid grey;
+}
+@media all and (max-width: 1024px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+}
